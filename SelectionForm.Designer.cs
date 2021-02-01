@@ -80,10 +80,10 @@ namespace w
             // SaveSelection
             // 
             this.SaveSelection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.SaveSelection.Location = new System.Drawing.Point(120, 12);
+            this.SaveSelection.Location = new System.Drawing.Point(164, 12);
             this.SaveSelection.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SaveSelection.Name = "SaveSelection";
-            this.SaveSelection.Size = new System.Drawing.Size(111, 23);
+            this.SaveSelection.Size = new System.Drawing.Size(155, 23);
             this.SaveSelection.TabIndex = 6;
             this.SaveSelection.Text = "Сохранить";
             this.SaveSelection.UseVisualStyleBackColor = true;
@@ -95,9 +95,9 @@ namespace w
             this.OpenFile.Location = new System.Drawing.Point(3, 12);
             this.OpenFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OpenFile.Name = "OpenFile";
-            this.OpenFile.Size = new System.Drawing.Size(111, 23);
+            this.OpenFile.Size = new System.Drawing.Size(155, 23);
             this.OpenFile.TabIndex = 6;
-            this.OpenFile.Text = "Открыть";
+            this.OpenFile.Text = "Открыть книгу Excel";
             this.OpenFile.UseVisualStyleBackColor = true;
             this.OpenFile.Click += new System.EventHandler(this.OpenFile_Click);
             // 
@@ -233,21 +233,21 @@ namespace w
             this.tableLayoutPanel2.Controls.Add(this.SaveSelection, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.OpenFile, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.Cancel, 2, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(76, 555);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(10, 555);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(352, 47);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(483, 47);
             this.tableLayoutPanel2.TabIndex = 10;
             // 
             // Cancel
             // 
             this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Cancel.Location = new System.Drawing.Point(237, 12);
+            this.Cancel.Location = new System.Drawing.Point(325, 12);
             this.Cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(112, 23);
+            this.Cancel.Size = new System.Drawing.Size(155, 23);
             this.Cancel.TabIndex = 7;
             this.Cancel.Text = "Отмена";
             this.Cancel.UseVisualStyleBackColor = true;
